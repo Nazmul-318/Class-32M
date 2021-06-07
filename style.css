@@ -1,0 +1,119 @@
+
+
+.text-heading{
+    text-align: center;
+}
+p{
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+}
+span{
+    color: green;
+}
+.flex-container {
+    width: 400px;
+    height: 400px;
+    border: 2px dotted black;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-container>div {
+    border: 1px solid green;
+    background-color: red;
+}
+.flex-container-one {
+    width: 600px;
+    height: 200px;
+    border: 2px solid black;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 10px;
+}
+
+.flex-container-one>div {
+    border: 1px solid blue;
+    background-color: red;
+}
+
+.flex-container-two {
+    width: 345px;
+    height: 200px;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.flex-container-two>div {
+    border: 1px solid blue;
+    background-color: red;
+}
+
+.flex-container-three {
+    width: 600px;
+    height: 400px;
+    border: 2px dotted black;
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+.flex-container-three>div {
+    border: 1px solid greenyellow;
+    background-color: red;
+    color: #ddd;
+    flex: 1;
+}
+
+.flex-container-three .div3 {
+    order: -1;
+}
+
+.flex-container-four {
+    width: 600px;
+    height: 400px;
+    border: 2px dotted black;
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+.flex-container-four>div {
+    border: 1px solid greenyellow;
+    background-color: red;
+    color: #ddd;
+    flex: 1;
+}
+
+.flex-container-four .div3 {
+    align-self: flex-end;
+}
+
+.flex-container-four .div4 {
+    align-self: center;
+}
+
+.flex-container-five {
+    width: 800px;
+    height: 400px;
+    border: 2px dotted black;
+    margin: auto;
+    display: flex;
+    align-items: stretch;
+    flex-direction: row-reverse;
+    margin-top: 10px;
+}
+
+.flex-container-five>div {
+    border: 1px solid #ddd;
+    background-color: red;
+}
